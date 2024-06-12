@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn-secondary{
+  margin-right: 20;
+}
+
+.btn-success {
+  margin-left: 20px; /* Ajusta este valor según sea necesario */
+}
+
+.card-body {
+  text-align: left;
+}
+
+.card-title, .card-subtitle, .card-text {
+  margin-left: 0; /* Asegúrate de que no haya margen izquierdo */
+}
+
+.btn {
+  margin-left: 0; /* Asegúrate de que los botones no tengan margen izquierdo */
 }
